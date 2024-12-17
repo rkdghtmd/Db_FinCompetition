@@ -1,0 +1,21 @@
+# Python 버전 명시
+python>=3.8,<3.12
+
+# 데이터 처리 및 머신러닝
+numpy
+pandas
+scikit-learn
+
+# PyTorch + CUDA 지원
+torch==2.0.0+cu118
+torchvision==0.15.1+cu118
+torchaudio==2.0.0+cu118
+-f https://download.pytorch.org/whl/cu118
+
+# Hugging Face Transformers
+transformers
+
+# Jupyter Notebook 환경
+notebook
+ipykernel
+jupyterlab
